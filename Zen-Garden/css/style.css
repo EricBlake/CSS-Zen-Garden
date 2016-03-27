@@ -1,0 +1,90 @@
+@import url(css/normalize.css);
+.page-wrapper {
+  background-color: #3F3F37; }
+
+.intro header {
+  background-color: #E5AE2E;
+  color: #3F3F37; }
+  .intro header h1 {
+    font-family: "brim-narrow-combined-2"; }
+.intro .summary {
+  background-color: #3F3F37;
+  color: #D5D5B0;
+  text-align: right; }
+  .intro .summary p {
+    margin: 1em; }
+    .intro .summary p a {
+      color: #ffffff; }
+.intro .preamble {
+  text-align: right;
+  background-color: #3D348B;
+  color: #E0E2DB; }
+  .intro .preamble h3 {
+    margin: 1em; }
+  .intro .preamble p {
+    margin: 1em; }
+
+.main {
+  text-align: right; }
+  .main p {
+    margein: 1em; }
+  .main .explanation {
+    background-color: #E6AF2E;
+    color: #3D348A; }
+    .main .explanation h3 {
+      margin: 1em; }
+    .main .explanation p {
+      margin: 1em; }
+  .main .participation {
+    background-color: #E0E2DB; }
+    .main .participation h3 {
+      margin: 1em; }
+    .main .participation p {
+      margin: 1em; }
+    .main .participation a {
+      text-decoration: none;
+      color: #E0E2DB; }
+  .main .requirements {
+    background: url("https://cdn-images-1.medium.com/fit/t/1600/480/1*7HbVZEDkp6x7yOvwQJntZQ.jpeg");
+    background-size: cover;
+    color: #ffffff; }
+    .main .requirements h3 {
+      margin: 1em; }
+    .main .requirements p {
+      margin: 1em; }
+    .main .requirements a {
+      color: #E0E2DB; }
+
+.sidebar {
+  background-color: #BEB784; }
+
+@media (min-width: 550px) {
+  .intro header h1 {
+    background-color: #3D348A;
+    color: #E0E2DB;
+    text-align: right;
+    max-width: 25%;
+    margin: 0 auto;
+    margin-left: 3em; }
+  .intro header h2 {
+    background-color: #3D348A;
+    color: #E0E2DB;
+    text-align: center;
+    max-width: 35%;
+    margin: 1em; }
+
+  .main {
+    overflow: hidden; }
+    .main .explanation {
+      width: 50%;
+      margin: 1em;
+      display: block; }
+    .main .participation {
+      width: 50%;
+      opacity: .5;
+      margin: 1em;
+      background-color: #E0E2DB; }
+      .main .participation p {
+        margin: 1em; } }
+
+/*# sourceMappingURL=style.css.map */

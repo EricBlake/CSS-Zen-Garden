@@ -1,0 +1,198 @@
+@import "css/normalize.css";
+
+
+//-----------------------------------MOBILE HEADER--------------------------
+
+.page-wrapper{
+	background-color: #3F3F37;
+
+	
+}
+
+
+.intro{
+	header{
+		background-color: #E5AE2E;
+		color: #3F3F37;
+
+
+		h1{
+		font-family: "brim-narrow-combined-2";
+		
+			}
+		
+	}
+	
+	.summary{
+		background-color: #3F3F37;
+		color: #D5D5B0;
+		text-align: right;
+
+
+
+		
+		p{
+			margin: 1em;
+
+			a{
+				color: #ffffff;
+				
+			}
+		}
+
+	}
+
+	.preamble{
+		text-align: right;
+		background-color: #3D348B;
+		color: #E0E2DB;
+
+		h3{
+			margin: 1em;
+		}
+
+		p{
+			margin: 1em;
+		}
+
+	}
+
+}
+
+//---------------------------------MOBILE MAIN BODY---------------------------
+
+.main{
+	text-align: right;
+
+	p{
+		margein: 1em;
+	}
+
+	.explanation{
+		background-color: #E6AF2E;
+		color: #3D348A;
+		h3{
+			margin: 1em;
+		}
+		p{
+			margin: 1em;
+		}
+	}
+	
+
+	.participation{
+		background-color: #E0E2DB;
+
+		h3{
+			margin: 1em;
+		}
+		p{
+			margin: 1em;
+		}
+
+		a{
+			text-decoration: none;
+			color:#E0E2DB;
+		}
+	}
+
+
+	.requirements{
+		background: url("https://cdn-images-1.medium.com/fit/t/1600/480/1*7HbVZEDkp6x7yOvwQJntZQ.jpeg");
+		background-size:cover;
+		color: #ffffff;
+
+		h3{
+			margin: 1em;
+		}
+		p{
+			margin: 1em;
+		}
+		a{
+			
+			color: #E0E2DB;
+		}
+	}
+
+}
+
+
+
+
+
+.sidebar{
+	background-color:#BEB784;
+}
+
+
+
+
+//--------------------------------BREAKPOINT 1---------------------------------
+
+@media (min-width: 550px){
+
+	.intro{
+
+		header{
+			
+
+			h1{
+			background-color: #3D348A;
+			color: #E0E2DB;
+			text-align:right;
+			max-width: 25%;
+			margin:0 auto;
+			margin-left: 3em;
+				
+			}
+			h2{
+			background-color: #3D348A;
+			color: #E0E2DB;
+			text-align:center;
+			max-width: 35%;
+			margin: 1em;
+
+
+			}
+		}
+
+
+	}
+
+	.main{
+		overflow:hidden;
+
+		.explanation{
+			width:50%;
+			margin: 1em;
+			display: block;
+					}
+
+
+		.participation{
+		width: 50%;
+		opacity: .5;
+		margin: 1em;
+		background-color:#E0E2DB;
+
+			p{
+				margin: 1em;
+			}
+		
+					}
+	}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
