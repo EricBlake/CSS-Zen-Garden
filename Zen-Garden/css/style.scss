@@ -4,184 +4,254 @@
 //-----------------------------------MOBILE HEADER--------------------------
 
 .page-wrapper{
-	background-color: #3F3F37;
+	
+	font-family: sans-serif;
+	margin: 0;
 
 	
-}
 
 
-.intro{
-	header{
-		background-color: #E5AE2E;
-		color: #3F3F37;
+
+	.intro{
+		header{
+			background-color: #E5AE2E;
+			color: #3F3F37;
+			margin-bottom: 0em;
 
 
-		h1{
-		font-family: "brim-narrow-combined-2";
+
+			h1{
+			font-family: "brim-narrow-combined-2";
+			font-size: 1em;
+			margin-bottom: 0em;
+			
+				}
+			h2{
+			font-family: "impact";
+			font-size: .5em;
+			margin-top: 0em;
+			
+				}
+			
+		}
 		
+		.summary{
+			background-color: #3F3F37;
+			color: #D5D5B0;
+			text-align: right;
+
+
+
+			
+			p{
+				margin: 1em;
+				font-family: "freight-macro-pro";
+				font-size: 2em;
+
+				a{
+					color: #ffffff;
+					
+				}
 			}
-		
+
+		}
+
+		.preamble{
+			text-align:left;
+			background-color: #3D348B;
+			color: #E0E2DB;
+
+			h3{
+				margin: 1em;
+				font-family: "freight-macro-pro";
+				font-size: 1em;
+			}
+
+			p{
+				margin: 1em;
+				font-family: "freight-macro-pro";
+				font-size: 1.2em;
+			}
+
+		}
+
 	}
-	
-	.summary{
-		background-color: #3F3F37;
-		color: #D5D5B0;
-		text-align: right;
 
+	//---------------------------------MOBILE MAIN BODY---------------------------
 
+	.main{
+		
 
 		
-		p{
-			margin: 1em;
+
+		.explanation{
+			background-color: #E6AF2E;
+			color: #3D348A;
+			text-align:right;
+			h3{
+				margin: 1em;
+				font-size: 1em;
+				font-family: "freight-macro-pro";
+			}
+			p{
+				margin: 1em;
+				font-family: "freight-macro-pro";
+				font-size: 1.5em;
+			}
+		}
+		
+
+		.participation{
+			background-color: #E0E2DB;
+			text-align:left;
+
+			h3{
+				margin: 1em;
+				font-family: "freight-macro-pro";
+				font-size: 1em;
+			}
+			p{
+				margin: 1em;
+				font-family: "freight-macro-pro";
+				font-size: 1.5em;
+			}
 
 			a{
-				color: #ffffff;
+				text-decoration: none;
+				color:#E0E2DB;
+			}
+		}
+
+
+		.requirements{
+			background: url("https://cdn-images-1.medium.com/fit/t/1600/480/1*7HbVZEDkp6x7yOvwQJntZQ.jpeg");
+			background-size:cover;
+			color: #ffffff;
+			text-align:right;
+
+			h3{
+				margin: 1em;
+				font-family: "freight-macro-pro";
+				font-size: 1em;
+
+			}
+			p{
+				margin: 1em;
+				font-family: "freight-macro-pro";
+				font-size: 1.5em;
+				color: #E6AF2E;
+			}
+			a{
 				
+				color: #191716
 			}
 		}
 
 	}
 
-	.preamble{
-		text-align: right;
-		background-color: #3D348B;
-		color: #E0E2DB;
-
-		h3{
-			margin: 1em;
-		}
-
-		p{
-			margin: 1em;
-		}
-
-	}
-
-}
-
-//---------------------------------MOBILE MAIN BODY---------------------------
-
-.main{
-	text-align: right;
-
-	p{
-		margein: 1em;
-	}
-
-	.explanation{
-		background-color: #E6AF2E;
-		color: #3D348A;
-		h3{
-			margin: 1em;
-		}
-		p{
-			margin: 1em;
-		}
-	}
-	
-
-	.participation{
-		background-color: #E0E2DB;
-
-		h3{
-			margin: 1em;
-		}
-		p{
-			margin: 1em;
-		}
-
+	footer{
+		
 		a{
-			text-decoration: none;
-			color:#E0E2DB;
+			color:#ffffff;
+			margin: 0 auto;
+			font-size: 2em;
+			text-align: center;
+
 		}
 	}
 
 
-	.requirements{
-		background: url("https://cdn-images-1.medium.com/fit/t/1600/480/1*7HbVZEDkp6x7yOvwQJntZQ.jpeg");
-		background-size:cover;
-		color: #ffffff;
 
-		h3{
-			margin: 1em;
-		}
-		p{
-			margin: 1em;
-		}
-		a{
+
+	.sidebar{
+		background-color:#BEB784;
+
+		.wrapper{
+
+				h3{
+					text-align: center;
+					font-family: "freight-macro-pro";
+					font-size: 1em;
+				}
+
+				ul{
+					list-style-type: none;
+					li{
+						
+
+						a{
+							text-decoration: none;
+							color: #3D348B;
+							font-family: "freight-macro-pro";
+
+						}
+					}
+				}
 			
-			color: #E0E2DB;
+
+
 		}
 	}
-
 }
-
-
-
-
-
-.sidebar{
-	background-color:#BEB784;
-}
-
 
 
 
 //--------------------------------BREAKPOINT 1---------------------------------
 
-@media (min-width: 550px){
+@media (min-width:550px){
 
 	.intro{
-
 		header{
+			overflow: hidden;
 			
-
-			h1{
-			background-color: #3D348A;
-			color: #E0E2DB;
-			text-align:right;
-			max-width: 25%;
-			margin:0 auto;
-			margin-left: 3em;
-				
-			}
-			h2{
-			background-color: #3D348A;
-			color: #E0E2DB;
-			text-align:center;
-			max-width: 35%;
-			margin: 1em;
+		}
+		
+		.summary{
+			width: 50%;
+			float:left;
+			-webkit-transform: rotate(37deg);
+			  -moz-transform: rotate(37deg);
+			  -ms-transform: rotate(37deg);
+			  -o-transform: rotate(37deg);
+			  transform: rotate(37deg);
+			  background-color:#CC6633;
+			  margin-top:5em;
+			  opacity: .5;
 
 
-			}
+
 		}
 
+		.preamble{
+			width: 50%;
+			float:left;
+			text-align:right;
+			  opacity: .75;
+			  margin-bottom: 3em;
+				
+
+			  		
+
+		}
 
 	}
 
 	.main{
-		overflow:hidden;
-
 		.explanation{
-			width:50%;
-			margin: 1em;
-			display: block;
-					}
-
+			float:left;
+			width:75%;
+			font-size: 1.5em;
+		}
 
 		.participation{
-		width: 50%;
-		opacity: .5;
-		margin: 1em;
-		background-color:#E0E2DB;
+			background-color:#3D348B;
 
-			p{
-				margin: 1em;
-			}
-		
-					}
+		}
 	}
-	}
+}
+
+
+
 
 
 

@@ -1,90 +1,127 @@
 @import url(css/normalize.css);
 .page-wrapper {
-  background-color: #3F3F37; }
-
-.intro header {
-  background-color: #E5AE2E;
-  color: #3F3F37; }
-  .intro header h1 {
-    font-family: "brim-narrow-combined-2"; }
-.intro .summary {
-  background-color: #3F3F37;
-  color: #D5D5B0;
-  text-align: right; }
-  .intro .summary p {
-    margin: 1em; }
-    .intro .summary p a {
-      color: #ffffff; }
-.intro .preamble {
-  text-align: right;
-  background-color: #3D348B;
-  color: #E0E2DB; }
-  .intro .preamble h3 {
-    margin: 1em; }
-  .intro .preamble p {
-    margin: 1em; }
-
-.main {
-  text-align: right; }
-  .main p {
-    margein: 1em; }
-  .main .explanation {
+  font-family: sans-serif;
+  margin: 0; }
+  .page-wrapper .intro header {
+    background-color: #E5AE2E;
+    color: #3F3F37;
+    margin-bottom: 0em; }
+    .page-wrapper .intro header h1 {
+      font-family: "brim-narrow-combined-2";
+      font-size: 1em;
+      margin-bottom: 0em; }
+    .page-wrapper .intro header h2 {
+      font-family: "impact";
+      font-size: .5em;
+      margin-top: 0em; }
+  .page-wrapper .intro .summary {
+    background-color: #3F3F37;
+    color: #D5D5B0;
+    text-align: right; }
+    .page-wrapper .intro .summary p {
+      margin: 1em;
+      font-family: "freight-macro-pro";
+      font-size: 2em; }
+      .page-wrapper .intro .summary p a {
+        color: #ffffff; }
+  .page-wrapper .intro .preamble {
+    text-align: left;
+    background-color: #3D348B;
+    color: #E0E2DB; }
+    .page-wrapper .intro .preamble h3 {
+      margin: 1em;
+      font-family: "freight-macro-pro";
+      font-size: 1em; }
+    .page-wrapper .intro .preamble p {
+      margin: 1em;
+      font-family: "freight-macro-pro";
+      font-size: 1.2em; }
+  .page-wrapper .main .explanation {
     background-color: #E6AF2E;
-    color: #3D348A; }
-    .main .explanation h3 {
-      margin: 1em; }
-    .main .explanation p {
-      margin: 1em; }
-  .main .participation {
-    background-color: #E0E2DB; }
-    .main .participation h3 {
-      margin: 1em; }
-    .main .participation p {
-      margin: 1em; }
-    .main .participation a {
+    color: #3D348A;
+    text-align: right; }
+    .page-wrapper .main .explanation h3 {
+      margin: 1em;
+      font-size: 1em;
+      font-family: "freight-macro-pro"; }
+    .page-wrapper .main .explanation p {
+      margin: 1em;
+      font-family: "freight-macro-pro";
+      font-size: 1.5em; }
+  .page-wrapper .main .participation {
+    background-color: #E0E2DB;
+    text-align: left; }
+    .page-wrapper .main .participation h3 {
+      margin: 1em;
+      font-family: "freight-macro-pro";
+      font-size: 1em; }
+    .page-wrapper .main .participation p {
+      margin: 1em;
+      font-family: "freight-macro-pro";
+      font-size: 1.5em; }
+    .page-wrapper .main .participation a {
       text-decoration: none;
       color: #E0E2DB; }
-  .main .requirements {
+  .page-wrapper .main .requirements {
     background: url("https://cdn-images-1.medium.com/fit/t/1600/480/1*7HbVZEDkp6x7yOvwQJntZQ.jpeg");
     background-size: cover;
-    color: #ffffff; }
-    .main .requirements h3 {
-      margin: 1em; }
-    .main .requirements p {
-      margin: 1em; }
-    .main .requirements a {
-      color: #E0E2DB; }
-
-.sidebar {
-  background-color: #BEB784; }
+    color: #ffffff;
+    text-align: right; }
+    .page-wrapper .main .requirements h3 {
+      margin: 1em;
+      font-family: "freight-macro-pro";
+      font-size: 1em; }
+    .page-wrapper .main .requirements p {
+      margin: 1em;
+      font-family: "freight-macro-pro";
+      font-size: 1.5em;
+      color: #E6AF2E; }
+    .page-wrapper .main .requirements a {
+      color: #191716; }
+  .page-wrapper footer a {
+    color: #ffffff;
+    margin: 0 auto;
+    font-size: 2em;
+    text-align: center; }
+  .page-wrapper .sidebar {
+    background-color: #BEB784; }
+    .page-wrapper .sidebar .wrapper h3 {
+      text-align: center;
+      font-family: "freight-macro-pro";
+      font-size: 1em; }
+    .page-wrapper .sidebar .wrapper ul {
+      list-style-type: none; }
+      .page-wrapper .sidebar .wrapper ul li a {
+        text-decoration: none;
+        color: #3D348B;
+        font-family: "freight-macro-pro"; }
 
 @media (min-width: 550px) {
-  .intro header h1 {
-    background-color: #3D348A;
-    color: #E0E2DB;
-    text-align: right;
-    max-width: 25%;
-    margin: 0 auto;
-    margin-left: 3em; }
-  .intro header h2 {
-    background-color: #3D348A;
-    color: #E0E2DB;
-    text-align: center;
-    max-width: 35%;
-    margin: 1em; }
-
-  .main {
+  .intro header {
     overflow: hidden; }
-    .main .explanation {
-      width: 50%;
-      margin: 1em;
-      display: block; }
-    .main .participation {
-      width: 50%;
-      opacity: .5;
-      margin: 1em;
-      background-color: #E0E2DB; }
-      .main .participation p {
-        margin: 1em; } }
+  .intro .summary {
+    width: 50%;
+    float: left;
+    -webkit-transform: rotate(37deg);
+    -moz-transform: rotate(37deg);
+    -ms-transform: rotate(37deg);
+    -o-transform: rotate(37deg);
+    transform: rotate(37deg);
+    background-color: #CC6633;
+    margin-top: 5em;
+    opacity: .5; }
+  .intro .preamble {
+    width: 50%;
+    float: left;
+    text-align: right;
+    opacity: .75;
+    margin-bottom: 3em; }
+
+  .main .explanation {
+    float: left;
+    width: 75%;
+    font-size: 1.5em; }
+  .main .participation {
+    background-color: #3D348B; } }
 
 /*# sourceMappingURL=style.css.map */
