@@ -104,7 +104,8 @@
       line-height: 1.2;
       margin-top: 0em; }
     .page-wrapper .main .participation a {
-      text-decoration: none; }
+      text-decoration: none;
+      color: #E6AF2E; }
   .page-wrapper .main .benefits {
     font-family: "freight-macro-pro";
     color: #E0E2DB;
