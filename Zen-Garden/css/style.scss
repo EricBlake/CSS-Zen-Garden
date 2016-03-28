@@ -6,7 +6,8 @@
 .page-wrapper{
 	
 	font-family: sans-serif;
-	margin: 0;
+	margin: 0 auto;
+	background-color: #E0E2DB;
 
 	
 
@@ -17,28 +18,35 @@
 			background-color: #E5AE2E;
 			color: #3F3F37;
 			margin-bottom: 0em;
+			padding: 1.5em;
 
 
 
 			h1{
 			font-family: "brim-narrow-combined-2";
-			font-size: 1em;
+			font-size: 1.5em;
 			margin-bottom: 0em;
+			margin: 0.5em;
 			
 				}
 			h2{
-			font-family: "impact";
-			font-size: .5em;
-			margin-top: 0em;
+			font-family: "brim-narrow-combined-2";
+			font-size: 1em;
+			
+			margin: 1em;
 			
 				}
 			
 		}
 		
 		.summary{
+			transition: background-color 2s ease-out;
+			transition: color 2s ease-out;
 			background-color: #3F3F37;
 			color: #D5D5B0;
 			text-align: right;
+			line-height:1.2;
+			
 
 
 
@@ -56,23 +64,58 @@
 
 		}
 
+		
+		.summary:hover {
+		  background-color: #D5D5B0;
+		  color:#3F3F37;
+		  cursor: pointer;
+		  -webkit-transition: background-color, color 2s ease-out;
+		  -moz-transition: background-color, color 2s ease-out;
+		  -o-transition: background-color, color 2s ease-out;
+		  transition: background-color, color 2s ease-out;
+		  -webkit-transition: color 2s ease-out;
+		  -moz-transition: color 2s ease-out;
+		  -o-transition: color 2s ease-out;
+		  transition: color 2s ease-out;
+		}
+
 		.preamble{
-			text-align:left;
+			transition: background-color 2s ease-out;
+			transition: color 2s ease-out;
 			background-color: #3D348B;
 			color: #E0E2DB;
+			text-align:left;
 
 			h3{
 				margin: 1em;
 				font-family: "freight-macro-pro";
 				font-size: 1em;
+				margin: 1.5em;
+				margin-bottom: 0.5em;
 			}
 
 			p{
 				margin: 1em;
 				font-family: "freight-macro-pro";
-				font-size: 1.2em;
+				font-size: 1.5em;
+				line-height: 1.2;
+				margin-top: 0em;
 			}
 
+		}
+
+		.preamble:hover{
+			background-color: #E0E2DB;
+			color:#3D348B;
+			cursor: pointer;
+			-webkit-transition: background-color, color 2s ease-out;
+			  -moz-transition: background-color, color 2s ease-out;
+			  -o-transition: background-color, color 2s ease-out;
+			  transition: background-color, color 2s ease-out;
+			  -webkit-transition: color 2s ease-out;
+			  -moz-transition: color 2s ease-out;
+			  -o-transition: color 2s ease-out;
+			  transition: color 2s ease-out;
 		}
 
 	}
@@ -89,14 +132,17 @@
 			color: #3D348A;
 			text-align:right;
 			h3{
-				margin: 1em;
-				font-size: 1em;
+				margin: 1.5em;
+				font-size: 1.5em;
 				font-family: "freight-macro-pro";
+				margin-bottom: 0.5em;
 			}
 			p{
 				margin: 1em;
 				font-family: "freight-macro-pro";
-				font-size: 1.5em;
+				font-size: 1em;
+				margin-top: 0em;
+				line-height: 1.2;
 			}
 		}
 		
@@ -104,35 +150,59 @@
 		.participation{
 			background-color: #E0E2DB;
 			text-align:left;
+			color:#191716;
+			margin-left: 0em;
+
 
 			h3{
-				margin: 1em;
+				margin: 1.5em;
 				font-family: "freight-macro-pro";
 				font-size: 1em;
+				margin-bottom: 0.5em;
 			}
 			p{
 				margin: 1em;
 				font-family: "freight-macro-pro";
 				font-size: 1.5em;
+				line-height: 1.2;
+				margin-top: 0em;
 			}
 
 			a{
 				text-decoration: none;
-				color:#E0E2DB;
+				
+			}
+		}
+
+		.benefits{
+			font-family: "freight-macro-pro";
+			color:#E0E2DB;
+			background-color:#191716;
+
+			h3{
+				font-size: 1em;
+				margin: 1.5em;
+				margin-bottom: 0.5em;
+			}
+			p{
+				font-size: 1.5em;
+				line-height: 1.2;
+				margin: 1em;
+				margin-top: 0em;
 			}
 		}
 
 
 		.requirements{
-			background: url("https://cdn-images-1.medium.com/fit/t/1600/480/1*7HbVZEDkp6x7yOvwQJntZQ.jpeg");
-			background-size:cover;
+			background-color: #3D348B;
 			color: #ffffff;
 			text-align:right;
-
+			margin-bottom: 0em;
 			h3{
-				margin: 1em;
+				margin: 1.5em;
 				font-family: "freight-macro-pro";
 				font-size: 1em;
+				margin-bottom: 0.5em;
 
 			}
 			p{
@@ -140,6 +210,8 @@
 				font-family: "freight-macro-pro";
 				font-size: 1.5em;
 				color: #E6AF2E;
+				margin-top: 0em;
+				line-height: 1.2;
 			}
 			a{
 				
@@ -150,12 +222,15 @@
 	}
 
 	footer{
+		margin-top: 0em;
+		text-align: center;
+		font-family: "freight-macro-pro";
 		
 		a{
-			color:#ffffff;
+			color:#191716;			
 			margin: 0 auto;
 			font-size: 2em;
-			text-align: center;
+			
 
 		}
 	}
@@ -171,11 +246,13 @@
 				h3{
 					text-align: center;
 					font-family: "freight-macro-pro";
-					font-size: 1em;
+					font-size: 1.5em;
+					margin-bottom: .05em;
 				}
 
 				ul{
 					list-style-type: none;
+					text-align: center;
 					li{
 						
 
@@ -203,6 +280,7 @@
 	.intro{
 		header{
 			overflow: hidden;
+			background-color:#E0E2DB;
 			
 		}
 		
@@ -216,15 +294,16 @@
 			  transform: rotate(37deg);
 			  background-color:#CC6633;
 			  margin-top:5em;
-			  opacity: .5;
+			  opacity: .75;
+			  padding-left:1em;
 
 
 
 		}
 
 		.preamble{
-			width: 50%;
-			float:left;
+			width: 45%;
+			float:right;
 			text-align:right;
 			  opacity: .75;
 			  margin-bottom: 3em;
@@ -237,17 +316,51 @@
 	}
 
 	.main{
+		clear: both;
+		overflow: hidden;
+		box-sizing: border-box;
+
 		.explanation{
-			float:left;
-			width:75%;
+			
 			font-size: 1.5em;
+			background-color:#E0E2DB;
 		}
 
 		.participation{
+			clear:right;
 			background-color:#3D348B;
+			margin-left: 1em;
+			width: 33%;
+			float: left;
+			padding-right:1em;
 
 		}
+		.benefits{
+			width: 33%;
+			float: left;
+		}
+		.requirements{
+			p{
+				margin: 1em;
+			}
+		}
+		
+
+		
+		
+
 	}
+
+	.sidebar{
+
+		.wrapper{
+
+
+		}
+
+	}
+
+
 }
 
 
