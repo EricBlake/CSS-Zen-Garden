@@ -196,7 +196,7 @@
 
 		.requirements{
 			background-color: #3D348B;
-			color: #ffffff;
+			color: #E0E2DB;
 			text-align:right;
 			margin-bottom: 0em;
 			h3{
@@ -216,7 +216,7 @@
 			}
 			a{
 				
-				color: #191716
+				color: #191716;
 			}
 		}
 
@@ -340,12 +340,16 @@
 			background-image: url("https://raw.githubusercontent.com/EricBlake/CSS-Zen-Garden/e2905565e593d0524423631ad7653014f2ffe6c3/Zen-Garden/css/yellow-textured.png");
 			width: 33%;
 			float:left;
-			color:#000000;
+
+			
 		}
 		.requirements{
 			padding-left:.5em;
+			color: #E0E2DB; 
+			background-image: url("https://raw.githubusercontent.com/EricBlake/CSS-Zen-Garden/master/Zen-Garden/css/purple-textured.png");
 			p{
 				margin: 1em;
+				
 			}
 		}
 
