@@ -199,8 +199,10 @@
       float: left;
       padding-right: 1em; }
     .main .benefits {
+      background-image: url("https://raw.githubusercontent.com/EricBlake/CSS-Zen-Garden/e2905565e593d0524423631ad7653014f2ffe6c3/Zen-Garden/css/yellow-textured.png");
       width: 33%;
-      float: left; }
+      float: left;
+      color: #000000; }
     .main .requirements {
       padding-left: .5em; }
       .main .requirements p {
