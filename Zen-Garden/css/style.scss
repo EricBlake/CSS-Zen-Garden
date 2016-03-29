@@ -329,7 +329,7 @@
 
 		.participation{
 			clear:right;
-			background-color:#3D348B;
+			background: url('css/yellow-textured');
 			margin-left: 1em;
 			width: 33%;
 			float: left;
@@ -341,15 +341,20 @@
 			float: left;
 		}
 		.requirements{
+			padding-left:.5em;
 			p{
 				margin: 1em;
 			}
 		}
-		
 
-		
-		
+	}
 
+	footer{
+		a{
+			padding:2em;
+			text-decoration: none;
+			
+		}
 	}
 
 	.sidebar{

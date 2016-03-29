@@ -193,7 +193,7 @@
       background-color: #E0E2DB; }
     .main .participation {
       clear: right;
-      background-color: #3D348B;
+      background: url("css/yellow-textured");
       margin-left: 1em;
       width: 33%;
       float: left;
@@ -201,7 +201,13 @@
     .main .benefits {
       width: 33%;
       float: left; }
-    .main .requirements p {
-      margin: 1em; } }
+    .main .requirements {
+      padding-left: .5em; }
+      .main .requirements p {
+        margin: 1em; }
+
+  footer a {
+    padding: 2em;
+    text-decoration: none; } }
 
 /*# sourceMappingURL=style.css.map */
