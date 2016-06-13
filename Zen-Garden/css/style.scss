@@ -46,6 +46,7 @@
 			color: #D5D5B0;
 			text-align: right;
 			line-height:1.2;
+
 			
 
 
@@ -55,6 +56,8 @@
 				margin: 1em;
 				font-family: "freight-macro-pro";
 				font-size: 2em;
+				padding:0.5em;
+
 
 				a{
 					color: #ffffff;
@@ -92,6 +95,7 @@
 				font-size: 1em;
 				margin: 1.5em;
 				margin-bottom: 0.5em;
+				padding-top:0.5em;
 			}
 
 			p{
@@ -100,6 +104,7 @@
 				font-size: 1.5em;
 				line-height: 1.2;
 				margin-top: 0em;
+				padding-bottom: 0.5em;
 			}
 
 		}
@@ -316,49 +321,55 @@
 
 	}
 
-	.main{
-		clear: both;
-		overflow: hidden;
-		box-sizing: border-box;
+	.page-wrapper {
 
-		.explanation{
-			
-			font-size: 1.5em;
-			background-color:#E0E2DB;
-		}
+		.main{
+			clear: both;
+			overflow: hidden;
+			box-sizing: border-box;
 
-		.participation{
-			clear:right;
-			background: url('css/yellow-textured');
-			margin-left: 1em;
-			width: 33%;
-			float: left;
-			padding-right:1em;
+			.explanation{
+				
+				font-size: 1.5em;
+				background-color:#E0E2DB;
+			}
 
-		}
-		.benefits{
-			background-image: url("https://raw.githubusercontent.com/EricBlake/CSS-Zen-Garden/e2905565e593d0524423631ad7653014f2ffe6c3/Zen-Garden/css/yellow-textured.png");
-			width: 33%;
-			float:left;
+			.participation{
+				clear:right;
+				background: url('css/yellow-textured');
+				margin-left: 1em;
+				width: 33%;
+				float: left;
+				padding-right:1em;
 
-			
-		}
-		.requirements{
-			padding-left:.5em;
-			color: #E0E2DB; 
-			background-image: url("https://raw.githubusercontent.com/EricBlake/CSS-Zen-Garden/master/Zen-Garden/css/purple-textured.png");
-			p{
-				margin: 1em;
+			}
+			.benefits{
+				background-image: url("https://raw.githubusercontent.com/EricBlake/CSS-Zen-Garden/e2905565e593d0524423631ad7653014f2ffe6c3/Zen-Garden/css/yellow-textured.png");
+				width: 33%;
+				float:left;
+
 				
 			}
-		}
+			.requirements{
+				padding-left:.5em;
+				
+				background-image: url("https://raw.githubusercontent.com/EricBlake/CSS-Zen-Garden/master/Zen-Garden/css/purple-textured.png");
+				p{
+					margin: 1em;
+					color: #272822;
+					padding-left:1em;
+					
+				}
+			}
 
+		}
 	}
 
 	footer{
 		a{
 			padding:2em;
 			text-decoration: none;
+			font-size: 1.5em;
 			
 		}
 	}
@@ -366,6 +377,10 @@
 	.sidebar{
 
 		.wrapper{
+
+			.design-selection{
+				font-size: 18px;
+			}
 
 
 		}
